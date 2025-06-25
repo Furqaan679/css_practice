@@ -1,0 +1,30 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    h1 { color: green; }              
+    .info { font-style: italic; }     
+    #internal-title { font-size: 26px; }  
+  </style>
+  <link rel="stylesheet" href="styles.css">
+  <title>CSS Example</title>
+</head>
+<body>
+
+  <!-- Inline CSS -->
+  <h1 style="color: blue; font-size: 24px;">Inline CSS Example</h1>
+  <p>Inline CSS is a method of applying styles directly to an HTML element using the style attribute. It affects only that specific element.</p>
+
+  <!-- Internal CSS -->
+  <h1 id="internal-title">Internal CSS Example</h1>
+  <p class="info">Internal CSS is written inside a &lt;style&gt; tag within the &lt;head&gt; section of an HTML document. It applies styles to the whole page.</p>
+
+  <!-- External CSS -->
+  <h1 class="font-apply">External CSS Example</h1>
+  <p class="font-apply">External CSS is written in a separate .css file and linked to the HTML using a &lt;link&gt; tag in the &lt;head&gt;. It keeps style and structure separate.</p>
+
+</body>
+</html>
