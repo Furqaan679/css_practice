@@ -33,3 +33,22 @@
   text-decoration: underline;
   text-transform: uppercase;
 }
+.pwl{
+  letter-spacing: 20px;
+  word-spacing: 50px;
+  line-height: 30px;
+  text-align: center;
+  /* text-align: left; */
+  /* text-align: right; */
+}
+.sfl{
+    text-transform: uppercase;
+    text-decoration:underline;
+    color:#03b8ff;
+
+}
+.sl{
+  list-style-type:circle;
+  list-style-image:url("i1.png");
+
+}
